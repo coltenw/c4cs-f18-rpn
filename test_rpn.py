@@ -7,5 +7,5 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
     
     def test_sub(self):
-        result = rpn.calculate('4 3 -')
+        result = rpn.calculate('3 4 -')
         self.assertEqual(1, result)
